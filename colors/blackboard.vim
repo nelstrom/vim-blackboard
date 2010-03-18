@@ -57,4 +57,8 @@ if has("gui_running")
 
   "Rails Colors
   highlight link railsMethod Type
+
+  "Sass colors
+  highlight link sassMixin Keyword
+  highlight link sassMixing Constant
 end
