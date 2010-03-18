@@ -20,7 +20,7 @@ if has("gui_running")
   highlight Cursor guifg=Black   guibg=Yellow
   highlight CursorLine guibg=#191E2F
   highlight LineNr guibg=#323232 guifg=#888888
-  highlight Folded guifg=#f1f3e8 guibg=#444444
+  highlight Folded guifg=#1d2652 guibg=#070a15
   highlight Pmenu guibg=#84A7C1
 
   "General Colors
