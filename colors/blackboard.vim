@@ -25,11 +25,11 @@ if has("gui_running")
 
   "General Colors
   highlight Comment guifg=#AEAEAE
-  highlight Constant guifg=#CAFE1E
+  highlight Constant guifg=#D8FA3C
   highlight Keyword guifg=#FFDE00
-  highlight String guifg=#00D42D
+  highlight String guifg=#61CE3C
   highlight Type guifg=#84A7C1
-  highlight Identifier guifg=#00D42D gui=NONE
+  highlight Identifier guifg=#61CE3C gui=NONE
   highlight Function guifg=#FF5600 gui=NONE
   highlight clear Search
   highlight Search guibg=#1C3B79
