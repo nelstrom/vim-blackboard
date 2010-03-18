@@ -22,6 +22,7 @@ if has("gui_running")
   highlight LineNr guibg=#323232 guifg=#888888
   highlight Folded guifg=#1d2652 guibg=#070a15
   highlight Pmenu guibg=#84A7C1
+  highlight Visual guibg=#283A76
 
   "General Colors
   highlight Comment guifg=#AEAEAE
