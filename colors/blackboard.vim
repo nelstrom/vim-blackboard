@@ -1,7 +1,7 @@
 " Vim color scheme
 "
 " Name:         blackboard.vim
-" Maintainer:   Ben Wyrosdick <ben.wyrosdick@gmail.com> 
+" Maintainer:   Ben Wyrosdick <ben.wyrosdick@gmail.com>
 " Last Change:  20 August 2009
 " License:      public domain
 " Version:      1.4
@@ -13,6 +13,15 @@ if exists("syntax_on")
 endif
 
 let g:colors_name = "blackboard"
+
+" Colours in use
+" --------------
+" #FF5600 bright orange
+" #FFDE00 yolk yellow
+" #D8FA3C lemon yellow
+" #61CE3C green
+" #84A7C1 light blue
+" #AEAEAE medium grey
 
 if has("gui_running")
   "GUI Colors
@@ -61,4 +70,14 @@ if has("gui_running")
   "Sass colors
   highlight link sassMixin Keyword
   highlight link sassMixing Constant
+
+  "Outliner colors
+  highlight OL1 guifg=#FF5600
+  highlight OL2 guifg=#61CE3C
+  highlight OL3 guifg=#84A7C1
+  highlight OL4 guifg=#D8FA3C
+  highlight BT1 guifg=#AEAEAE
+  highlight link BT2 BT1
+  highlight link BT3 BT1
+  highlight link BT4 BT1
 end
