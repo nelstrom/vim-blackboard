@@ -80,4 +80,8 @@ if has("gui_running")
   highlight link BT2 BT1
   highlight link BT3 BT1
   highlight link BT4 BT1
+
+  "Markdown colors
+  highlight markdownCode guifg=#61CE3C guibg=#070a15
+  highlight link markdownCodeBlock markdownCode
 end
