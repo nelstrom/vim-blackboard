@@ -84,4 +84,12 @@ if has("gui_running")
   "Markdown colors
   highlight markdownCode guifg=#61CE3C guibg=#070a15
   highlight link markdownCodeBlock markdownCode
+
+  "Git colors
+  highlight gitcommitSelectedFile guifg=#61CE3C
+  highlight gitcommitDiscardedFile guifg=#C23621
+  highlight gitcommitWarning guifg=#C23621
+  highlight gitcommitBranch guifg=#FFDE00
+  highlight gitcommitHeader guifg=#84A7C1
+
 end
