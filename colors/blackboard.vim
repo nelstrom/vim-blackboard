@@ -45,6 +45,10 @@ if has("gui_running")
   highlight Search guibg=#1C3B79
   highlight PreProc guifg=#FF5600
 
+  " StatusLine
+  highlight StatusLine  guifg=#000000 guibg=#ffffaf gui=italic
+  highlight StatusLineNC  guifg=#000000 guibg=#ffffff gui=NONE
+
   "Invisible character colors
   highlight NonText guifg=#4a4a59
   highlight SpecialKey guifg=#4a4a59
