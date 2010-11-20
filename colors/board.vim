@@ -39,6 +39,11 @@ hi StatusLineNC guifg=#000000 ctermfg=16  guibg=#FFFFFF ctermbg=231 gui=NONE cte
 hi NonText      guifg=#4A4A59 ctermfg=239
 hi SpecialKey   guifg=#4A4A59 ctermfg=239
 
+hi OL1          guifg=#FF5600 ctermfg=202
+hi OL2          guifg=#61CE3C ctermfg=77
+hi OL3          guifg=#84A7C1 ctermfg=109
+hi OL4          guifg=#D8FA3C ctermfg=191
+hi BT1          guifg=#AEAEAE ctermfg=145
 
 hi link htmlTag              
 hi link htmlEndTag           htmlTag
@@ -55,3 +60,6 @@ hi link rubyStringDelimiter  String
 hi link railsMethod          Type
 hi link sassMixin            Keyword
 hi link sassMixing           Constant
+hi link BT2                  BT1
+hi link BT3                  BT1
+hi link BT4                  BT1

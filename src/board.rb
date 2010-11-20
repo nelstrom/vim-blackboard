@@ -74,4 +74,14 @@ vim_colors "board" do
   #Sass colors
   link :sassMixin, :to => :Keyword
   link :sassMixing, :to => :Constant
+
+  #Outliner colors
+  OL1 :fg => bright_orange
+  OL2 :fg => green
+  OL3 :fg => light_blue
+  OL4 :fg => lemon_yellow
+  BT1 :fg => medium_grey
+  link :BT2, :to => :BT1
+  link :BT3, :to => :BT1
+  link :BT4, :to => :BT1
 end
