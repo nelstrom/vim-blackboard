@@ -19,6 +19,7 @@ blue_grey     = "4a4a59"
 light_grey    = "888888"
 terracotta    = "C23621"
 pale_yellow   = "ffffaf"
+primary_yellow   = "ffff00"
 # }}}
 vim_colors "board" do
   author "Drew Neil"
@@ -28,4 +29,34 @@ vim_colors "board" do
   background :dark
 
   Normal white, deep_navy
+  Cursor :fg => black,   :bg => primary_yellow
+  CursorLine :bg => navy
+  LineNr :bg => dark_grey, :fg => light_grey
+  Folded :fg => deep_blue, :bg => off_black
+  Pmenu :bg => light_blue
+  Visual :bg => blue2
+
+  Comment :fg => medium_grey
+  Constant :fg => lemon_yellow
+  Keyword :fg => yolk_yellow
+  String :fg => green
+  Type :fg => light_blue
+  Identifier :fg => green, :gui => "NONE"
+  Function :fg => bright_orange, :gui => "NONE"
+  #clear Search
+  Search blue1
+  PreProc :fg => bright_orange
+
+  # StatusLine
+  StatusLine  :fg => black, :bg => pale_yellow, :gui => "italic"
+  StatusLineNC  :fg => black, :bg => white, :gui => "NONE"
+
+  #Invisible character colors
+  NonText :fg => blue_grey
+  SpecialKey :fg => blue_grey
+
+  #HTML Colors
+  #link htmlTag Type
+  #link htmlEndTag htmlTag
+  #link htmlTagName htmlTag
 end
