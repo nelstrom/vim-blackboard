@@ -38,7 +38,6 @@ hi StatusLine             guifg=#000000 ctermfg=16  guibg=#FFFFAF ctermbg=229 gu
 hi StatusLineNC           guifg=#000000 ctermfg=16  guibg=#FFFFFF ctermbg=231 gui=NONE cterm=NONE
 hi NonText                guifg=#4A4A59 ctermfg=239
 hi SpecialKey             guifg=#4A4A59 ctermfg=239
-
 hi OL1                    guifg=#FF5600 ctermfg=202
 hi OL2                    guifg=#61CE3C ctermfg=77
 hi OL3                    guifg=#84A7C1 ctermfg=109
@@ -51,9 +50,9 @@ hi gitcommitWarning       guifg=#C23621 ctermfg=130
 hi gitcommitBranch        guifg=#FFDE00 ctermfg=220
 hi gitcommitHeader        guifg=#84A7C1 ctermfg=109
 
-hi link htmlTag              
-hi link htmlEndTag           htmlTag
-hi link htmlTagName          htmlTag
+hi link htmlTag              Type
+hi link htmlEndTag           Type
+hi link htmlTagName          Type
 hi link rubyClass            Keyword
 hi link rubyDefine           Keyword
 hi link rubyInclude          Keyword

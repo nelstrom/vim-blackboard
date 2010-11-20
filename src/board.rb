@@ -58,8 +58,7 @@ vim_colors "board" do
   SpecialKey :fg => blue_grey
 
   #HTML Colors
-  link :htmlTag, to => :Type
-  link :htmlEndTag, :htmlTagName, :to => :htmlTag
+  link :htmlTag, :htmlEndTag, :htmlTagName, :to => :Type
 
   # Ruby colors
   link :rubyClass, :rubyDefine, :rubyInclude, :rubyAttribute, :to => :Keyword
