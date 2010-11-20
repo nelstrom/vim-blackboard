@@ -53,3 +53,5 @@ hi link rubyInstanceVariable Normal
 hi link rubyString           String
 hi link rubyStringDelimiter  String
 hi link railsMethod          Type
+hi link sassMixin            Keyword
+hi link sassMixing           Constant

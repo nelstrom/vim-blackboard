@@ -70,4 +70,8 @@ vim_colors "board" do
 
   #Rails Colors
   link :railsMethod, :to => :Type
+
+  #Sass colors
+  link :sassMixin, :to => :Keyword
+  link :sassMixing, :to => :Constant
 end
