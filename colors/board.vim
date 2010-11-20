@@ -38,3 +38,18 @@ hi StatusLine   guifg=#000000 ctermfg=16  guibg=#FFFFAF ctermbg=229 gui=italic
 hi StatusLineNC guifg=#000000 ctermfg=16  guibg=#FFFFFF ctermbg=231 gui=NONE cterm=NONE
 hi NonText      guifg=#4A4A59 ctermfg=239
 hi SpecialKey   guifg=#4A4A59 ctermfg=239
+
+
+hi link htmlTag              
+hi link htmlEndTag           htmlTag
+hi link htmlTagName          htmlTag
+hi link rubyClass            Keyword
+hi link rubyDefine           Keyword
+hi link rubyInclude          Keyword
+hi link rubyAttribute        Keyword
+hi link rubyConstant         Type
+hi link rubySymbol           Constant
+hi link rubyInstanceVariable Normal
+hi link rubyString           String
+hi link rubyStringDelimiter  String
+hi link railsMethod          Type

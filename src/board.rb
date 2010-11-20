@@ -28,6 +28,7 @@ vim_colors "board" do
   reset true 
   background :dark
 
+  # GUI colors
   Normal white, deep_navy
   Cursor :fg => black,   :bg => primary_yellow
   CursorLine :bg => navy
@@ -36,6 +37,7 @@ vim_colors "board" do
   Pmenu :bg => light_blue
   Visual :bg => blue2
 
+  # General syntax
   Comment :fg => medium_grey
   Constant :fg => lemon_yellow
   Keyword :fg => yolk_yellow
@@ -56,7 +58,16 @@ vim_colors "board" do
   SpecialKey :fg => blue_grey
 
   #HTML Colors
-  #link htmlTag Type
-  #link htmlEndTag htmlTag
-  #link htmlTagName htmlTag
+  link :htmlTag, to => :Type
+  link :htmlEndTag, :htmlTagName, :to => :htmlTag
+
+  # Ruby colors
+  link :rubyClass, :rubyDefine, :rubyInclude, :rubyAttribute, :to => :Keyword
+  link :rubyConstant, :to => :Type
+  link :rubySymbol, :to => :Constant
+  link :rubyInstanceVariable, :to => :Normal
+  link :rubyString, :rubyStringDelimiter, :to => :String
+
+  #Rails Colors
+  link :railsMethod, :to => :Type
 end
