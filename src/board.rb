@@ -84,4 +84,15 @@ vim_colors "board" do
   link :BT2, :to => :BT1
   link :BT3, :to => :BT1
   link :BT4, :to => :BT1
+
+  #Markdown colors
+  markdownCode :fg => green, :bg => off_black
+  link :markdownCodeBlock, :to => :markdownCode
+
+  #Git colors
+  gitcommitSelectedFile :fg => green
+  gitcommitDiscardedFile :fg => terracotta
+  gitcommitWarning :fg => terracotta
+  gitcommitBranch :fg => yolk_yellow
+  gitcommitHeader :fg => light_blue
 end
