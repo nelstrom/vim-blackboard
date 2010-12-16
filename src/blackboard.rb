@@ -18,6 +18,8 @@ dark_grey     = "323232"
 blue_grey     = "4a4a59"
 light_grey    = "888888"
 terracotta    = "C23621"
+light_orange   = "f0b016"
+pale_orange   = "fad680"
 pale_yellow   = "ffffaf"
 primary_yellow   = "ffff00"
 # }}}
@@ -46,8 +48,8 @@ vim_colors "blackboard" do
   Identifier :fg => green, :gui => "NONE"
   Function :fg => bright_orange, :gui => "NONE"
   #clear Search
-  IncSearch :bg => pale_yellow, :gui => "NONE"
-  Search :bg => pale_yellow
+  IncSearch :fg => black, :bg => light_orange, :gui => "NONE"
+  Search :fg => black, :bg => pale_orange
   PreProc :fg => bright_orange
 
   # StatusLine
