@@ -46,7 +46,8 @@ vim_colors "blackboard" do
   Identifier :fg => green, :gui => "NONE"
   Function :fg => bright_orange, :gui => "NONE"
   #clear Search
-  Search blue1
+  IncSearch :bg => pale_yellow, :gui => "NONE"
+  Search :bg => pale_yellow
   PreProc :fg => bright_orange
 
   # StatusLine

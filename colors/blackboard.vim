@@ -32,7 +32,8 @@ hi String                 guifg=#61CE3C ctermfg=77
 hi Type                   guifg=#84A7C1 ctermfg=109
 hi Identifier             guifg=#61CE3C ctermfg=77  gui=NONE cterm=NONE
 hi Function               guifg=#FF5600 ctermfg=202 gui=NONE cterm=NONE
-hi Search                 guifg=#1C3B79 ctermfg=24
+hi IncSearch              guibg=#FFFFAF ctermbg=229 gui=NONE cterm=NONE
+hi Search                 guibg=#FFFFAF ctermbg=229
 hi PreProc                guifg=#FF5600 ctermfg=202
 hi StatusLine             guifg=#000000 ctermfg=16  guibg=#FFFFAF ctermbg=229 gui=italic
 hi StatusLineNC           guifg=#000000 ctermfg=16  guibg=#FFFFFF ctermbg=231 gui=NONE cterm=NONE
