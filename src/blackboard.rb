@@ -21,7 +21,7 @@ terracotta    = "C23621"
 pale_yellow   = "ffffaf"
 primary_yellow   = "ffff00"
 # }}}
-vim_colors "board" do
+vim_colors "blackboard" do
   author "Drew Neil"
   notes  "Based on the 'Blackboard' theme from TextMate."
 

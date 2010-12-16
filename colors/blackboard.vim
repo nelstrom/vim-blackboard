@@ -5,7 +5,7 @@
 " Author: Drew Neil
 " Notes:  Based on the 'Blackboard' theme from TextMate.
 
-let colors_name="board"
+let colors_name="blackboard"
 
 hi clear
 if version > 580
